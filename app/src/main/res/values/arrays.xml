@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="local">
+        <item>인창동</item>
+        <item>수택동</item>
+        <item>갈매동</item>
+        <item>교문동</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>의자</item>
+        <item>책상</item>
+        <item>소파</item>
+        <item>침대</item>
+        <item>기타</item>
+    </string-array>
+
+</resources>

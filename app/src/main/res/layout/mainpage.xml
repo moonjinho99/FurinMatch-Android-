@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="12"
+    >
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    >
+
+    <!--메인 화면-->
+    <LinearLayout
+        android:id="@+id/home_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/maintext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        android:text="FurniMatch"
+                        android:fontFamily="@font/font01"
+                        android:textColor="#000000"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="visible"
+                        >
+
+                        <ImageButton
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+
+                            android:id="@+id/chair_btn"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/circle_btn"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/chair_main" />
+
+                        <ImageButton
+
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+
+                            android:id="@+id/table_btn"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/circle_btn"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/desk_main" />
+
+                        <ImageButton
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+
+                            android:id="@+id/sofa_btn"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/circle_btn"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/sofa_main" />
+
+                        <ImageButton
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+
+                            android:id="@+id/bed_btn"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/circle_btn"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/bed_main" />
+
+                        <ImageButton
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:id="@+id/another_btn"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/circle_btn"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ex_main" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/chair_btn_txt"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="의자"
+                            android:background="@drawable/circle_btn"
+                            android:textColor="#000000"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/table_btn_txt"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="책상"
+                            android:textColor="#000000"
+                            android:background="@drawable/circle_btn"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/sofa_btn_txt"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="소파"
+                            android:background="@drawable/circle_btn"
+                            android:textColor="#000000"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/bed_btn_txt"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="침대"
+                            android:background="@drawable/circle_btn"
+                            android:textColor="#000000"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/ano_btn_txt"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="기타"
+                            android:background="@drawable/circle_btn"
+                            android:textColor="#000000"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--<View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#aaa"></View>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/chair_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+                        <!--의자 리스트 뷰-->
+                        <ListView
+                            android:id="@+id/chair_list"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </ListView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/table_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:visibility="invisible">
+                        <!--책상 리스트 뷰-->
+                        <ListView
+                            android:id="@+id/table_list"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        </ListView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/sofa_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:visibility="invisible">
+                        <!--소파 리스트 뷰-->
+                        <ListView
+                            android:id="@+id/sofa_list"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        </ListView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/bed_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:visibility="invisible">
+
+                        <!--침대 리스트 뷰-->
+                        <ListView
+                            android:id="@+id/bed_list"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        </ListView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/another_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:visibility="invisible">
+                        <!--기타 리스트 뷰-->
+                        <ListView
+                            android:id="@+id/another_list"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        </ListView>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--AR 리스트 페이지-->
+    <LinearLayout
+        android:id="@+id/ar_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="AR로 가구보기"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="#aaa"></View>
+
+        <ListView
+            android:id="@+id/ar_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ></ListView>
+
+
+    </LinearLayout>
+
+    <!--마이 페이지-->
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:id="@+id/mypage_layout"
+        >
+
+        <!-- Add your UI elements here -->
+
+        <!-- Profile Picture -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#dcdcdc"
+            android:visibility="visible"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_picture"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="5dp"
+                android:padding="5dp"
+                android:src="@drawable/user_profile"
+                app:civ_border_color="#dcdcdc"
+                app:civ_border_overlay="true"
+                app:civ_circle_background_color="#ffffff"
+                />
+
+            <!-- User Information -->
+            <TextView
+                android:id="@+id/mypage_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="**님"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:background="#dcdcdc"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <!-- Order History -->
+
+        <!-- Button for Order History -->
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/mypage_profile_update_btn"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:background="@drawable/retangle_btn_clear"
+                android:drawableRight="@drawable/ic_keyboard_right"
+                android:text="프로필수정"
+                android:gravity="left|center"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+            <!-- Saved Items -->
+
+            <!-- Button for Saved Items -->
+            <Button
+                android:id="@+id/mypage_sell_list_btn"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="@drawable/retangle_btn_clear"
+                android:drawableRight="@drawable/ic_keyboard_right"
+                android:text="판매내역"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/mypage_favorite_btn"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:drawableRight="@drawable/ic_keyboard_right"
+                android:background="@drawable/retangle_btn_clear"
+                android:text="관심목록"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/mypage_logout_btn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:background="@drawable/circle_btncolor"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:onClick="OnClickHandler"
+                android:text="로그아웃" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--채팅 목록-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/chat_list_layout"
+        android:visibility="invisible"
+        android:orientation="vertical"
+        >
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="채팅 목록"
+        android:textStyle="bold"
+        android:textSize="20dp"
+            android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginTop="9dp"
+            ></View>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/chat_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="진행중인 채팅이 없습니다."
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+</FrameLayout>
+
+    <View
+    android:background="#000000"
+    android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+    android:layout_height="2px"></View>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="3"
+            >
+
+            <ImageButton
+                android:id="@+id/home_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:scaleType="centerInside"
+                android:src="@drawable/home"
+                android:text="홈" />
+
+            <ImageButton
+                android:id="@+id/ar_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:scaleType="centerInside"
+                android:src="@drawable/ar_camera_btn"
+                android:text="AR" />
+
+            <ImageButton
+                android:id="@+id/product_plus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:scaleType="centerInside"
+                android:src="@drawable/edit"
+                android:text="물품등록" />
+
+            <ImageButton
+                android:id="@+id/mypage_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:scaleType="centerInside"
+                android:src="@drawable/user"
+                android:text="내정보" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:text="홈" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:text="AR" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:text="물품등록" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:text="마이페이지" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

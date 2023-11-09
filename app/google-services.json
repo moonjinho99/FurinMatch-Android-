@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "445273671711",
+    "project_id": "furnimatch-8e5f6",
+    "storage_bucket": "furnimatch-8e5f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445273671711:android:99dd894159441af34f6d2a",
+        "android_client_info": {
+          "package_name": "com.example.pc.furnimatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445273671711-scqh6fvqcsjj0otri78icjgd7tg9r2th.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiR6hoaMXuzFGMlpDaw0TIcN50eu6gUgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445273671711-scqh6fvqcsjj0otri78icjgd7tg9r2th.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

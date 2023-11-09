@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Chatting"
+    android:weightSum="10"
+    >
+
+
+    <TextView
+        android:id="@+id/chat_room_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="채팅"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:layout_weight="0.2"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#aaa"></View>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9.6"
+        android:background="#dcdcff"
+        android:id="@+id/chatting_listView"
+        >
+
+    </ListView>
+
+
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="2px"
+    android:background="#aaa"></View>
+
+    <LinearLayout
+        android:id="@+id/chat_under_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="8dp"
+        android:layout_weight="0.5"
+        android:weightSum="10">
+
+        <EditText
+            android:id="@+id/chat_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="9" />
+
+        <Button
+            android:id="@+id/chat_trans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_btncolor"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="0.2"
+            android:text="전송" />
+
+    </LinearLayout>
+</LinearLayout>
