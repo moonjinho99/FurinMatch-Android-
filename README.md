@@ -8,6 +8,7 @@ AR 중고가구 거래 앱
 
 <hr>
 
+
 ## 📖 개요
 
 ➡ 다른 품목들에 비해 가구는 중고거래를 할 때 가구를 직접 확인하 거래하기가 쉽지 않음
@@ -20,7 +21,7 @@ AR 중고가구 거래 앱
 
 ➡ AR 기술을 통한 가구배치
 
-<img src="https://github.com/moonjinho99/FurinMatch_Android/assets/117807455/564b1fcc-0656-4204-a0d0-17ed155aafcd" width="200" height="250">
+<img src="https://github.com/moonjinho99/FurinMatch_Android/assets/117807455/564b1fcc-0656-4204-a0d0-17ed155aafcd" width="200" height="250"><img src="https://github.com/moonjinho99/FurinMatch_Android/assets/117807455/2e05728e-13ee-4014-b74f-a122fa69e994" width="200" height="250"><img src="https://github.com/moonjinho99/FurinMatch_Android/assets/117807455/0a3cf697-32d3-4bf6-8bf6-b629fd32765a" width="200" height="250">
 
 ➡ 채팅기능
 
