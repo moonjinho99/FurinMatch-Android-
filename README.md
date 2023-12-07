@@ -20,7 +20,11 @@ AR 중고가구 거래 앱
 
 ➡ AR 기술을 통한 가구배치
 
+<img src="https://github.com/moonjinho99/FurinMatch_Android/assets/117807455/564b1fcc-0656-4204-a0d0-17ed155aafcd" width="200" height="250">
+
 ➡ 채팅기능
+
+<img src="https://github.com/moonjinho99/FurinMatch_Android/assets/117807455/b8f49ee4-0dd9-4a81-a39b-de0ba6048303" width="200" height="250">
 
 
 
