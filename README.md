@@ -35,7 +35,7 @@ AR 중고가구 거래 앱
 
 ➡ JSP서버를 통해 안드로이드에서 MySQL로 데이터를 주고 받는 형식으로 데이터를 주고 받음
 
-
+[JSP 서버](https://github.com/moonjinho99/FurniMatch-Web_JSP-)
 
 
 
