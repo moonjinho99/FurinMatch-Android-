@@ -59,7 +59,7 @@ public class furni_ar_view extends AppCompatActivity {
                 .thenAccept(renderable -> modelRenderable = renderable)
                 .exceptionally(throwable -> {
                     Toast toast =
-                            Toast.makeText(this, "Unable to load andy renderable", Toast.LENGTH_LONG);
+                            Toast.makeText(this, "랜더링 실패", Toast.LENGTH_LONG);
                     toast.setGravity(Gravity.CENTER, 0, 0);
                     toast.show();
                     return null;
@@ -86,8 +86,8 @@ public class furni_ar_view extends AppCompatActivity {
     }
     public static boolean checkIsSupportedDeviceOrFinish(final Activity activity) {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.N) {
-            Log.e(TAG, "Sceneform requires Android N or later");
-            Toast.makeText(activity, "Sceneform requires Android N or later", Toast.LENGTH_LONG).show();
+            Log.e(TAG, "Sceneform 버전오류");
+            Toast.makeText(activity, "Sceneform 버전오류", Toast.LENGTH_LONG).show();
             activity.finish();
             return false;
         }
@@ -97,7 +97,7 @@ public class furni_ar_view extends AppCompatActivity {
                         .getGlEsVersion();
         if (Double.parseDouble(openGlVersionString) < MIN_OPENGL_VERSION) {
             Log.e(TAG, "Sceneform requires OpenGL ES 3.0 later");
-            Toast.makeText(activity, "Sceneform requires OpenGL ES 3.0 or later", Toast.LENGTH_LONG)
+            Toast.makeText(activity, "OpenGL 버전오류", Toast.LENGTH_LONG)
                     .show();
             activity.finish();
             return false;
