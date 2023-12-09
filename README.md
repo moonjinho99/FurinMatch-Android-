@@ -38,6 +38,9 @@ AR 중고가구 거래 앱
 [JSP 서버](https://github.com/moonjinho99/FurniMatch-Web_JSP-)
 
 <hr>
+## 💡 이번 프로젝트를 통해 배운점
+
+<hr>
 
 ## 🔅 향후 방향
 
