@@ -30,9 +30,13 @@ AR 중고가구 거래 앱
 
 ➡ AR 기술을 통한 가구배치
 
+- AR Core 작동을 위해 안드로이드 스튜디오 버전을 3.1.4로 낮추고 Sceneform 라이브러리를 사용하여 AR 기능 구현
+
 <img src="https://github.com/moonjinho99/FurinMatch_Android/assets/117807455/564b1fcc-0656-4204-a0d0-17ed155aafcd" width="200" height="250"><img src="https://github.com/moonjinho99/FurinMatch_Android/assets/117807455/2e05728e-13ee-4014-b74f-a122fa69e994" width="200" height="250"><img src="https://github.com/moonjinho99/FurinMatch_Android/assets/117807455/0a3cf697-32d3-4bf6-8bf6-b629fd32765a" width="200" height="250">
 
 ➡ 채팅기능
+
+- Socket 통신을 이용하여 채팅 기능 구현
 
 <img src="https://github.com/moonjinho99/FurinMatch_Android/assets/117807455/b8f49ee4-0dd9-4a81-a39b-de0ba6048303" width="200" height="250">
 
